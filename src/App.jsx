@@ -306,7 +306,7 @@ const CafeVasa = () => {
       </section>
 
       {/* Loyalty Program Section */}
-  <section id="loyalty" className="py-24 bg-gradient-to-br from-[#f8f4e9] to-[#e8dfd8]">
+ <section id="loyalty" className="py-24 bg-gradient-to-br from-[#f8f4e9] to-[#e8dfd8]">
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div className="text-center mb-16">
       <h2 className="text-4xl sm:text-5xl font-bold text-[#d4a574] mb-4">Vasa Rewards</h2>
@@ -320,40 +320,40 @@ const CafeVasa = () => {
         <div className="bg-white rounded-3xl shadow-2xl p-8 border-2 border-[#d4a574]/30 transform hover:scale-[1.02] transition-all duration-300">
           <div className="flex items-center gap-6 mb-8">
             <div className="w-20 h-20 bg-gradient-to-br from-[#d4a574] to-[#b8860b] rounded-2xl flex items-center justify-center text-white text-3xl font-bold shadow-lg">
-              10
+              10%
             </div>
             <div>
-              <h3 className="text-3xl font-bold text-[#5a4b41] mb-2">Vasa Coins</h3>
-              <p className="text-[#8b7355] text-lg">Earned on every purchase</p>
+              <h3 className="text-3xl font-bold text-[#5a4b41] mb-2">Cashback</h3>
+              <p className="text-[#8b7355] text-lg">On every purchase</p>
             </div>
           </div>
           
           <p className="text-lg text-[#5a4b41] mb-8 leading-relaxed">
-            Join our exclusive loyalty program and collect <span className="font-bold text-[#d4a574]">10 Vasa Coins</span> with every order. 
+            Join our exclusive loyalty program and get <span className="font-bold text-[#d4a574]">10% cashback</span> on every order. 
             Watch your rewards grow and unlock amazing treats with every visit!
           </p>
           
-          {/* How it Works */}
+          {/* How it Works - Updated */}
           <div className="bg-gradient-to-br from-[#f8f4e9] to-[#e8dfd8] rounded-2xl p-6 border border-[#d4a574]/20">
             <h4 className="text-xl font-bold text-[#5a4b41] mb-6 text-center">How it works</h4>
             <div className="space-y-4">
-              <div className="flex items-center gap-4 p-3 bg-white/50 rounded-xl">
+              <div className="flex items-center gap-4 p-3 bg-white/50 rounded-xl transform hover:scale-[1.02] transition-all duration-300 cursor-pointer">
                 <div className="w-8 h-8 bg-[#d4a574] text-white rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">
                   1
                 </div>
-                <span className="text-[#5a4b41] font-medium">Scan the QR code to join instantly</span>
+                <span className="text-[#5a4b41] font-medium">Get <span className="text-[#d4a574] font-bold">10% cashback</span> as Vasa Coins</span>
               </div>
-              <div className="flex items-center gap-4 p-3 bg-white/50 rounded-xl">
+              <div className="flex items-center gap-4 p-3 bg-white/50 rounded-xl transform hover:scale-[1.02] transition-all duration-300 cursor-pointer">
                 <div className="w-8 h-8 bg-[#d4a574] text-white rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">
                   2
                 </div>
-                <span className="text-[#5a4b41] font-medium">Earn 10 coins automatically on every purchase</span>
+                <span className="text-[#5a4b41] font-medium">On <span className="text-[#d4a574] font-bold">every purchase</span> you make</span>
               </div>
-              <div className="flex items-center gap-4 p-3 bg-white/50 rounded-xl">
+              <div className="flex items-center gap-4 p-3 bg-white/50 rounded-xl transform hover:scale-[1.02] transition-all duration-300 cursor-pointer">
                 <div className="w-8 h-8 bg-[#d4a574] text-white rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">
                   3
                 </div>
-                <span className="text-[#5a4b41] font-medium">Redeem coins for exclusive rewards & discounts</span>
+                <span className="text-[#5a4b41] font-medium"><span className="text-[#d4a574] font-bold">Redeem coins</span> in your next purchase</span>
               </div>
             </div>
           </div>
@@ -445,11 +445,11 @@ const CafeVasa = () => {
                 <div className="space-y-3">
                   <div className="flex items-center justify-center lg:justify-start gap-3">
                     <span className="text-2xl">✨</span>
-                    <span className="text-white font-semibold">Collect 10 coins on every purchase</span>
+                    <span className="text-white font-semibold">Get 10% cashback on every purchase</span>
                   </div>
                   <div className="flex items-center justify-center lg:justify-start gap-3">
                     <span className="text-2xl">🎯</span>
-                    <span className="text-white font-semibold">Redeem for discounts & free items</span>
+                    <span className="text-white font-semibold">Redeem coins in your next visit</span>
                   </div>
                   <div className="flex items-center justify-center lg:justify-start gap-3">
                     <span className="text-2xl">⚡</span>
